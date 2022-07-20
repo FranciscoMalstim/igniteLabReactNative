@@ -8,12 +8,7 @@ import { Button } from '../components/Button';
 
 export function Home() {
   const [statusSelected, setStatusSelected] = useState<'open' | 'close'>('open')
-  const [orders, setOrders] = useState<OrderProps[]>([{
-    id:'123',
-    patrimony:'123456',
-    when:'18/07/2022 às 10:00',
-    status: 'open'
-  }]);
+  const [orders, setOrders] = useState<OrderProps[]>([]);
   
   const {colors} = useTheme();
 
