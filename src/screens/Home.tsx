@@ -6,6 +6,7 @@ import Logo from '../assets/logo_secondary.svg'
 import { Filter } from '../components/Filter';
 import { Order, OrderProps } from '../components/Order';
 import { Button } from '../components/Button';
+import React from 'react';
 
 export function Home() {
   const [statusSelected, setStatusSelected] = useState<'open' | 'close'>('open')
@@ -45,11 +46,11 @@ export function Home() {
       <VStack flex={1} px={6}>
         <HStack w="full" mt={8} mb={4} justifyContent="space-between" alignItems="center">
           <Heading color="gray.100">
-            Meus chamados
+            Solicitações
           </Heading>
           
           <Text  color="gray.200">
-            3
+            {orders.length}
           </Text>
         </HStack>
 
