@@ -59,7 +59,7 @@ export function Home() {
       setIsLoading(false);
     })
 
-  }, []);
+  }, [statusSelected]);
 
   return (
     <VStack flex={1} pb={6} bg="gray.700">
@@ -108,7 +108,6 @@ export function Home() {
           isActive={ statusSelected === 'close'}
         />
         </HStack>
-
         {
           isLoading ? <Loading /> :
           <FlatList 
