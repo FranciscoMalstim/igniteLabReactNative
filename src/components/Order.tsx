@@ -1,5 +1,6 @@
 import { Box, Circle, HStack, Text, useTheme, VStack, Pressable, IPressableProps } from 'native-base';
 import {ClockAfternoon, Hourglass, CircleWavyCheck} from 'phosphor-react-native'
+import React from 'react';
 
 export type OrderProps = {
   id: string,
