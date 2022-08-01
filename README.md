@@ -1,7 +1,7 @@
 # RocketHelp
 ### Projeto desenvolvido no evento Ignite Lab - React Native da Rocketseat 🚀
 
-Aplicação para abrir solicitações.
+Aplicação para abrir solicitações de serviços.
 
 - Frontend
    - Expo Bare Workflow
